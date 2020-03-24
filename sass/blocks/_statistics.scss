@@ -1,0 +1,23 @@
+.statistics {
+    padding-top: 121px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.link_start {
+    margin-top: 86px;
+    text-align: center;
+    a {
+        color: #0099ff;
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 22px 56px;
+        &:hover {
+            color: #fefefe;
+            border-radius: 36px;
+            background-color: #00d664;
+            text-decoration: none;
+        }
+    }
+}

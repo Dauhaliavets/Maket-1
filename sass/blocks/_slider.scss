@@ -1,0 +1,26 @@
+.slider {
+    background: url('../img/slider-right.png') right no-repeat;
+}
+
+.slider__background {
+    background: url('../img/slider-left.png') center;
+    background-size: cover;
+}
+
+.slider__background_layout {
+    background: url('../img/worldmap-dots.png') left no-repeat;
+}
+
+.content {
+    padding: 82px 0 138px;
+    max-width: 350px;
+    p {
+        color: #ffffff;
+        font-size: 3.0rem;
+        font-weight: 700;
+        line-height: 45px;
+        span {
+            color: #284a6f;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', Verdana, sans-serif;
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+ul {
+    margin-bottom: 0;
+}
+// Conponents
+@import "components/h2";
+@import "components/h3";
+@import "components/score";
+
+// Blocks
+@import "blocks/wrapper";
+@import "blocks/header";
+@import "blocks/slider";
+@import "blocks/our_features";
+@import "blocks/mobile_application";
+@import "blocks/statistics";
