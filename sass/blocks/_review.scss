@@ -1,0 +1,52 @@
+.review {
+    .wrapper {
+        h2 {
+            text-align: center;
+        }
+        .video_box{
+            margin: 79px 0 99px;
+            display: flex;
+            justify-content: center;
+            .video {
+                position: relative;
+                .video_hover {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: -1;
+                    .video_hover_button {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-18px, -33px);
+                    }
+                }
+            }
+            .video:hover {
+                .video_hover {
+                    z-index: 3;
+                    cursor: pointer;
+                }
+            }
+            .video_about {
+                margin-top: 136px;
+                padding: 68px 78px 69px 57px;
+                background-color: #fafafa;
+                h4 {
+                    color: #000000;
+                    font-family: "Open Sans";
+                    font-size: 1.6rem;
+                    line-height: 24px;
+                    font-weight: 400;
+                }
+                h5 {
+                    color: #c0bebe;
+                    font-weight: 400;
+                }
+                i {
+                    color: #000000;
+                }
+            }            
+        }
+    }
+}

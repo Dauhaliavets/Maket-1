@@ -24,3 +24,21 @@
         }
     }
 }
+.carousel-control-prev-icon {
+    width: 27px;
+    height: 27px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAMAAAC6CgRnAAAAAXNSR0IB2cksfwAAAJBQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////lgAZ8AAAADB0Uk5TABBfn7/v/39gu3tLLQ+QtlMWj9JtHwNiE4BSM75QoHqqzITASt0i8CwOme53cWXUBKYByQAAAQdJREFUeJx9kul2gjAQhSfqXMEFpCwKVVxAgtW27/92DR7MUjjOr5l8mSWZS9SbmExnDJ5NJ4JcE3MYmzvUUxn+Yrlar5YLX/meQQE43ER9EG1CxodBcZJm+maWJjGCviDi7c7pvtvGeJYVzImLFEyYu4FyhCn9tzRErtLARTZgWcEQqpsfmbPPlxPtcaASR4NOZ+1eUFKF2qBro/0aFUm0Y4haMAG3Pvq6W4jWgJXXXE9k50m7nwO7fvacNuzmdN7XPJz3vfuXd/9JQg73EH2zfApjZH8/v+hlMbb3/BV1eim0Xgqll8AU8aTS2bFub2192TOkpTM1UG7pMx+o1ysrCVmVB03+AIUNE4zmZM4eAAAAAElFTkSuQmCC');
+}
+.carousel-control-next-icon {
+    width: 27px;
+    height: 27px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAMAAAC6CgRnAAAAAXNSR0IB2cksfwAAAIpQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9jdojQAAAC50Uk5TABBfn7/v/39gu3tLLQ+QtlMWj9JtHwNiE4BSVSK+UKB6zN2EwErwLA5EmXFl1OeUPHcAAAD5SURBVHicfZLploIwDIVTNVdwARkWLS44CsUZnfd/vame2oJwml9NP5JcmktkQkymMwbPphNB/RBzuJj3aKArwsVytV4tF6E+Bw5F4HiTmCTZxIwvh9IsL+yXRZ6liExDpNtdb/pum+LVVjBnfaRhxvwUJBHn9Bl5DKnLwGUxYEXJEHpa+FZI+4OFyREnqnC2F98XB6+oqEZj88PFwQY1KbQ0BlswAbeOhh/8mtMa8NQp7zyfTt//+d7F954k1HAPyZ3Vyxgj+3v8wdhibO/ynT39Ulq/lNovkWsSKO2zc9Pe2uZ6ZKiOz7Qg2fGnHLg3qGoFVVcnS/4BATETyJtLqBkAAAAASUVORK5CYII=');
+}
+.carousel-control-next, .carousel-control-prev {
+    top: auto;
+    bottom: -106px;
+}
+.carousel-control-next {
+    right: none;
+    left: 40px;
+}
